@@ -21,8 +21,8 @@ const Index = () => {
       </section>
       
       <img 
-        src="/placeholder.svg" 
-        alt="Reindeer in snowy landscape" 
+        src="/reindeer-hero.jpg" 
+        alt="Majestic reindeer in snowy forest" 
         className="w-full max-w-4xl h-[400px] object-cover rounded-lg shadow-lg mb-16"
       />
     </div>

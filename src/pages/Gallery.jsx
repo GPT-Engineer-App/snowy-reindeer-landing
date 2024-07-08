@@ -2,12 +2,12 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const Gallery = () => {
   const images = [
-    { src: "/placeholder.svg", alt: "Reindeer in snowy forest" },
-    { src: "/placeholder.svg", alt: "Reindeer herd migrating" },
-    { src: "/placeholder.svg", alt: "Close-up of reindeer antlers" },
-    { src: "/placeholder.svg", alt: "Reindeer calf" },
-    { src: "/placeholder.svg", alt: "Reindeer in autumn tundra" },
-    { src: "/placeholder.svg", alt: "Reindeer swimming across river" },
+    { src: "/reindeer-forest.jpg", alt: "Reindeer herd in lush green forest" },
+    { src: "/reindeer-antlers.jpg", alt: "Close-up of reindeer antlers" },
+    { src: "/reindeer-calf.jpg", alt: "Adorable reindeer calf with mother" },
+    { src: "/reindeer-tundra.jpg", alt: "Reindeer in autumn tundra" },
+    { src: "/reindeer-river.jpg", alt: "Reindeer swimming across river" },
+    { src: "/reindeer-hero.jpg", alt: "Majestic reindeer in snowy forest" },
   ];
 
   return (

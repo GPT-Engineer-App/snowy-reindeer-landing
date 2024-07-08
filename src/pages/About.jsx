@@ -35,8 +35,8 @@ const About = () => {
       </div>
       
       <img 
-        src="/placeholder.svg" 
-        alt="Reindeer in their natural habitat" 
+        src="/reindeer-tundra.jpg" 
+        alt="Reindeer in their natural tundra habitat" 
         className="w-full max-w-4xl h-[400px] object-cover rounded-lg shadow-lg my-16 mx-auto"
       />
       
