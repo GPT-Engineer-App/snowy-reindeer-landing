@@ -9,7 +9,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { cn } from "@/lib/utils";
-import { CircleUser, Menu, Antlers } from "lucide-react";
+import { CircleUser, Menu, Snowflake } from "lucide-react";
 import { NavLink, Outlet } from "react-router-dom";
 import { navItems } from "../App";
 
@@ -35,7 +35,7 @@ const DesktopNav = () => (
       to="/"
       className="flex items-center gap-2 text-lg font-semibold md:text-base"
     >
-      <Antlers className="h-6 w-6" />
+      <Snowflake className="h-6 w-6" />
       <span>Reindeer World</span>
     </NavItem>
     {navItems.map((item) => (
@@ -60,7 +60,7 @@ const MobileNav = () => (
           to="/"
           className="flex items-center gap-2 text-lg font-semibold"
         >
-          <Antlers className="h-6 w-6" />
+          <Snowflake className="h-6 w-6" />
           <span>Reindeer World</span>
         </NavItem>
         {navItems.map((item) => (
